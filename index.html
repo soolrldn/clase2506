@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apex Sim Racing Hub</title>
+  <meta name="description" content="El primer centro de simulación de alto rendimiento de LATAM. Hardware profesional, telemetría real y un camino concreto hacia el motorsport competitivo.">
+
+  <!-- Ícono de pestaña: reemplazá "assets/favicon.png" por el archivo real (ideal: 32x32 o 64x64px, .png o .svg) -->
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+
+  <!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+     <a href="#top" class="logo" aria-label="Apex — inicio">
+        <svg viewBox="0 0 1177.86 209.25" fill="currentColor" aria-hidden="true" focusable="false">
+          <path d="M153.74,0h86.9l59.87,209.25h-70.04l-9.88-38.07H63.55l34.64,10.68-17.98,27.39H0L153.74,0ZM208.08,122.06l-20.05-77.01-50.57,77.01h70.62Z"/>
+          <path d="M362.98,0h145.89c67.13,0,94.16,30.81,83.41,83.99-9.01,44.46-48.82,72.07-102.3,72.07h-91.84l-11.33,53.18h-68.88L362.98,0ZM489.11,102.01c22.67,0,34.29-5.52,38.36-23.25,3.78-17.44-5.52-23.54-28.19-23.54h-79.34l-10.17,46.79h79.34Z"/>
+          <path d="M637.31,0h213.31l-10.75,51.44h-143.86l-6.39,29.35h137.46l-9.88,47.08h-137.46l-6.39,29.93h143.86l-10.75,51.44h-213.9L637.31,0Z"/>
+          <path d="M957.28,101.72L875.03,0h80.79l50.57,66.84L1084.86,0h93l-133.1,110.44,80.5,98.81h-81.37l-51.73-66.55-75.56,66.55h-93.29l133.98-107.53Z"/>
+        </svg>
+      </a>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#experiencias">Experiencias</a></li>
+          <li><a href="#equal-grid">Equal Grid</a></li>
+          <li><a href="#tecnologia">Tecnología</a></li>
+          <li><a href="#resenas">Reseñas</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menú de navegación">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-label="Presentación">
+      <div class="hero-media">
+        <img src="assets/hero-bg.png" alt="Box de simulación Apex con volante y pedales direct drive, monitor curvo mostrando una pista de carreras" loading="eager">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <h1 class="hero-title">Acá no se juega.<br>Se entrena.</h1>
+        <p class="hero-sub">El primer centro de simulación de alto rendimiento de LATAM.</p>
+        <a href="#contacto" class="btn btn-light">Quiero entrenar <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <!-- ============ QUE ES APEX ============ -->
+<section class="section section-dark" id="diferencia" aria-labelledby="diferencia-title">
+      <div class="container">
+        <div class="diff-grid">
+          <div class="diff-copy">
+            <h2 id="diferencia-title">La diferencia está en las centésimas</h2>
+            <p>Apex no es un lugar para pasar el tiempo.</p>
+            <p>Es la infraestructura que le faltaba al motorsport competitivo en la región. Simuladores direct drive. Sistemas de hidráulica profesional. Software de telemetría con el mismo nivel de análisis que usan los equipos de Fórmula 2.</p>
+            <p>Si llegás hasta acá, ya sabés lo que buscás. Apex existe para dártelo.</p>
+          </div>
+          <figure class="diff-media">
+            <video
+              class="diff-video"
+              poster="assets/showroom.png"
+              muted
+              loop
+              playsinline
+              preload="none"
+              tabindex="0"
+              aria-label="Recorrido por el showroom de Apex. Pasá el mouse, tocá o presioná Enter para reproducir.">
+              <source src="assets/showroom-video.mp4" type="video/mp4">
+            </video>
+            <span class="diff-video-hint" aria-hidden="true">
+              <svg viewBox="0 0 48 48" focusable="false"><circle cx="24" cy="24" r="23" fill="rgba(24,24,26,0.55)" stroke="currentColor" stroke-width="1.5"/><path d="M19 15.5v17l15-8.5-15-8.5Z" fill="currentColor"/></svg>
+            </span>
+          </figure>
+        </div>
+ 
+        <ul class="card-grid" role="list">
+          <li class="card card-purple">
+            <h3>Infraestructura capacitada</h3>
+            <p>Hardware de nivel profesional. Sin atajos, sin versiones recortadas.</p>
+          </li>
+          <li class="card card-purple">
+            <h3>Datos sobre intuición</h3>
+            <p>En Apex entrenás con telemetría porque el talento sin análisis no escala.</p>
+          </li>
+          <li class="card card-purple">
+            <h3>Un pathway real</h3>
+            <p>Estamos desde el assessment hasta la primera en pista. Apex es tu puente.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCIAS ============ -->
+    <section class="section section-dark" id="experiencias" aria-labelledby="experiencias-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="experiencias-title">Elegí cómo entrar. <BR>El objetivo es el mismo</h2>
+          <p>Cuatro formatos diseñados para distintos momentos de tu desarrollo como piloto.</p>
+        </div>
+
+    <div class="format-scroll-wrap">
+          <ul class="format-scroll" id="formatScroll" tabindex="0" aria-label="Formatos de experiencia. Usá el scroll, las flechas del teclado o deslizá para recorrerlos.">
+            <li class="format-panel card-purple">
+              <figure class="format-media">
+                <img src="assets/liga-interna.png" alt="Sala de simuladores en hilera con paneles de pista de cuadros y rótulo Liga Interna de Desarrollo" loading="lazy">
+              </figure>
+              <div class="format-copy">
+                <h3>Liga Interna de Desarrollo</h3>
+                <p>No es una carrera online más. La Liga Interna de Apex funciona con calendario de temporada, sistema de puntos, análisis post-carrera y seguimiento de progresión individual. El ambiente de un campeonato real, sin esperar a que te inviten a uno.</p>
+                <a href="#contacto" class="btn btn-light btn-sm">Ver Calendario <span class="arrow" aria-hidden="true">→</span></a>
+              </div>
+            </li>
+ 
+            <li class="format-panel card-purple">
+              <figure class="format-media">
+                <img src="assets/driver-assesment.png" alt="Box de evaluación de pilotos con simuladores profesionales" loading="lazy">
+              </figure>
+              <div class="format-copy">
+                <h3>Driver Assessment</h3>
+                <p>Tu punto de partida, medido. Evaluamos consistencia, líneas de frenado, gestión de neumáticos y tiempo de reacción con el mismo protocolo que usan los equipos para evaluar pilotos nuevos. Sin opiniones. Solo datos.</p>
+                <a href="#contacto" class="btn btn-light btn-sm">Reservar Assessment <span class="arrow" aria-hidden="true">→</span></a>
+              </div>
+            </li>
+ 
+            <li class="format-panel card-purple">
+              <figure class="format-media">
+                <img src="assets/telemetry-lab.png" alt="Piloto analizando datos de telemetría en cabina de simulación" loading="lazy">
+              </figure>
+              <div class="format-copy">
+                <h3>Telemetry Lab</h3>
+                <p>Una sesión, un informe completo. Comparamos tu vuelta contra el ghost de referencia, sector por sector, y te mostramos exactamente dónde se pierde el tiempo. Lo que un ingeniero de pista vería, lo ves vos.</p>
+                <a href="#contacto" class="btn btn-light btn-sm">Agendar sesión <span class="arrow" aria-hidden="true">→</span></a>
+              </div>
+            </li>
+ 
+            <li class="format-panel card-purple">
+              <figure class="format-media">
+                <img src="assets/team-experience.png" alt="Interior del centro Apex con iluminación de neón y puestos de simulación" loading="lazy">
+              </figure>
+              <div class="format-copy">
+                <h3>Team Experience</h3>
+                <p>Tu equipo contra el suyo. Formato de competencia directa entre escuderías, con estrategia de boxes, comunicación por radio y un resultado que se queda en la tabla. No es team building. Es carrera.</p>
+                <a href="#contacto" class="btn btn-light btn-sm">Armar mi equipo <span class="arrow" aria-hidden="true">→</span></a>
+              </div>
+            </li>
+          </ul>
+ 
+           <!-- <div class="format-dots" id="formatDots" role="tablist" aria-label="Ir a un formato específico">
+            <button class="format-dot is-active" role="tab" aria-selected="true" aria-label="Liga Interna de Desarrollo" data-go="0"></button>
+            <button class="format-dot" role="tab" aria-selected="false" aria-label="Driver Assessment" data-go="1"></button>
+            <button class="format-dot" role="tab" aria-selected="false" aria-label="Telemetry Lab" data-go="2"></button>
+            <button class="format-dot" role="tab" aria-selected="false" aria-label="Team Experience" data-go="3"></button>
+          </div> -->
+        </div>
+      </div>
+    </section> 
+
+    <!-- ============ ALIANZA WIGARG ============ -->
+    <section class="section section-dark" aria-labelledby="alianza-title">
+      <div class="container alianza-grid">
+        <div>
+          <h2 id="alianza-title">El talento no tiene género. El acceso, sí.</h2>
+          <p class="alianza-claim">Alianza estratégica con <br>Women in Games Argentina</p>
+        </div>
+        <div class="alianza-copy">
+          <p>Apex se asoció con Women in Games Argentina porque compartimos el mismo diagnóstico: el motorsport femenino tiene un problema de infraestructura y de oportunidades.</p>
+          <p>WIGArg es la red de referencia en Argentina para mujeres en la industria del gaming y los deportes electrónicos. Con su trayectoria en visibilización y construcción de comunidad, y la infraestructura técnica de Apex, el programa Equal Grid tiene el respaldo que necesita para ser algo más que una declaración de intenciones.</p>
+           <a href="https://www.womeningamesar.com/" class="btn btn-light">Conocé Más<span class="arrow" aria-hidden="true">→</span></a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GHOST PILOTS STANDINGS ============ -->
+    <section class="section section-light" aria-labelledby="standings-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="standings-title"><span class="text-accent">Sim Racing Standings</span><br>Ghost Pilots</h2>
+          <p>Métricas reales. Identidades ocultas.</p>
+        </div>
+
+        <div class="table-wrap">
+          <table class="standings-table">
+            <caption class="sr-only">Clasificación de pilotos con identidades ocultas, mostrando posición, vueltas completadas y mejor tiempo</caption>
+            <thead>
+              <tr>
+                <th scope="col">Posición</th>
+                <th scope="col">Pilota</th>
+                <th scope="col">Vueltas</th>
+                <th scope="col">Tiempo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">P01</th>
+                <td data-label="Pilota"><span class="redacted" aria-label="Nombre oculto"></span></td>
+                <td data-label="Vueltas">42</td>
+                <td data-label="Tiempo">1:28.492</td>
+              </tr>
+              <tr>
+                <th scope="row">P02</th>
+                <td data-label="Pilota"><span class="redacted" aria-label="Nombre oculto"></span></td>
+                <td data-label="Vueltas">39</td>
+                <td data-label="Tiempo">1:28.587</td>
+              </tr>
+              <tr>
+                <th scope="row">P03</th>
+                <td data-label="Pilota"><span class="redacted" aria-label="Nombre oculto"></span></td>
+                <td data-label="Vueltas">47</td>
+                <td data-label="Tiempo">1:28.611</td>
+              </tr>
+              <tr>
+                <th scope="row">P04</th>
+                <td data-label="Pilota"><span class="redacted" aria-label="Nombre oculto"></span></td>
+                <td data-label="Vueltas">44</td>
+                <td data-label="Tiempo">1:28.704</td>
+              </tr>
+              <tr>
+                <th scope="row">P05</th>
+                <td data-label="Pilota"><span class="redacted" aria-label="Nombre oculto"></span></td>
+                <td data-label="Vueltas">51</td>
+                <td data-label="Tiempo">1:28.738</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="statement">
+          <span class="statement-line statement-left">Si ocultamos</span>
+          <span class="statement-line statement-left">los nombres,</span>
+          <span class="statement-line statement-left">¿seguirías eligiendo</span>
+          <span class="statement-line statement-left">a los mismos</span>
+          <span class="statement-line statement-left"><span class="text-accent">pilotos</span>?</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ EQUAL GRID ============ -->
+    <section class="section section-light" id="equal-grid" aria-labelledby="equalgrid-title">
+      <div class="container equalgrid-grid">
+        <div>
+          <h2 id="equalgrid-title" class="text-accent">Equal Grid</h2>
+          <p class="equalgrid-claim">El primer pathway de profesionalización <br>para sim-racers competitivas de LATAM.</p>
+        </div>
+        <div class="equalgrid-copy">
+          <p>Equal Grid no es un taller introductorio. Es un programa de profesionalización diseñado con el mismo nivel técnico que los programas de desarrollo masculinos que existen en Europa — porque no hay ningún motivo válido para que sea de otra manera.</p>
+          <p>Telemetría, preparación física específica, psicología del rendimiento y competencia real. Para las que van en serio.</p>
+          <p>Apex no desarrolla talento femenino por política. Lo desarrolla porque hay talento sin desarrollar, y eso es exactamente lo que hacemos.</p>
+          <a href="detalle.html" class="btn btn-primary">Conocer Equal Grid <span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <div class="container">
+        <h3 class="paradox-title">La paradoja del sim-racing</h3>
+
+        <div class="stats-grid">
+          <div class="stat-block">
+            <p class="stat-number">100%</p>
+            <p>Paridad física entre géneros dentro del simulador. El hardware no distingue. Los datos tampoco.</p>
+          </div>
+          <figure class="stat-media">
+            <img src="assets/paradoja-1.png" alt="Piloto femenina compitiendo en simulador con guantes de carrera" loading="lazy">
+          </figure>
+
+          <figure class="stat-media">
+            <img src="assets/driver-1.png" alt="Piloto femenina concentrada durante una sesión de simulación" loading="lazy">
+          </figure>
+          <div class="stat-block">
+            <p class="stat-number">~3%</p>
+            <p>Representación femenina en ligas competitivas. La brecha existe. La justificación técnica, no.</p>
+          </div>
+
+          <div class="stat-block">
+            <p class="stat-number">0</p>
+            <p>Centros de simulación en América Latina con un programa estructurado de desarrollo femenino en esports. Hasta ahora.</p>
+          </div>
+          <figure class="stat-media">
+            <img src="assets/venue.png" alt="Interior del centro Apex con iluminación de neón morada" loading="lazy">
+          </figure>
+        </div>
+
+        <!-- Versión mobile: carrusel de fotos. El dato (número + texto) aparece al tocar o hacer hover sobre la foto. Solo visible en mobile vía CSS; en tablet/desktop se sigue viendo el .stats-grid de arriba. -->
+        <ul class="stats-carousel" id="statsCarousel" role="list">
+          <li class="stats-carousel-card">
+            <button class="stat-reveal" type="button">
+              <img src="assets/paradoja-1.png" alt="Piloto femenina compitiendo en simulador con guantes de carrera" loading="lazy">
+              <span class="stat-reveal-hint" aria-hidden="true">+</span>
+              <span class="stat-reveal-overlay">
+                <span class="stat-number">100%</span>
+                <span>Paridad física entre géneros dentro del simulador. El hardware no distingue. Los datos tampoco.</span>
+              </span>
+            </button>
+          </li>
+          <li class="stats-carousel-card">
+            <button class="stat-reveal" type="button">
+              <img src="assets/driver-1.png" alt="Piloto femenina concentrada durante una sesión de simulación" loading="lazy">
+              <span class="stat-reveal-hint" aria-hidden="true">+</span>
+              <span class="stat-reveal-overlay">
+                <span class="stat-number">~3%</span>
+                <span>Representación femenina en ligas competitivas. La brecha existe. La justificación técnica, no.</span>
+              </span>
+            </button>
+          </li>
+          <li class="stats-carousel-card">
+            <button class="stat-reveal" type="button">
+              <img src="assets/venue.png" alt="Interior del centro Apex con iluminación de neón morada" loading="lazy">
+              <span class="stat-reveal-hint" aria-hidden="true">+</span>
+              <span class="stat-reveal-overlay">
+                <span class="stat-number">1</span>
+                <span>Centro de simulación en América Latina con un programa estructurado de desarrollo femenino en esports. Es Apex.</span>
+              </span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ HARDWARE / TECNOLOGÍA ============ -->
+    <section class="section section-dark" id="tecnologia" aria-labelledby="tecnologia-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="tecnologia-title">El hardware que <br>define la diferencia</h2>
+          <p>Cada componente fue elegido por una razón técnica. Nada es decorativo.</p>
+        </div>
+
+        <ul class="card-grid card-grid-2" role="list">
+          <li class="card card-purple">
+            <div class="card-head">
+              <h3>Simuladores <br>Direct Drive</h3>
+              <svg class="card-icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                <rect x="6" y="8" width="36" height="24" rx="2" fill="none" stroke="currentColor" stroke-width="2.5"/>
+                <line x1="18" y1="40" x2="30" y2="40" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <line x1="24" y1="32" x2="24" y2="40" stroke="currentColor" stroke-width="2.5"/>
+              </svg>
+            </div>
+            <p>Volantes con torque calibrado de hasta 25 nm. Feedback de fuerza que replica con precisión quirúrgica lo que siente un piloto real en cada metro de pista.</p>
+          </li>
+
+          <li class="card card-purple">
+            <div class="card-head">
+              <h3>Hidráulica <br>profesional</h3>
+              <svg class="card-icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                <circle cx="24" cy="24" r="15" fill="none" stroke="currentColor" stroke-width="2.5"/>
+                <circle cx="24" cy="24" r="5" fill="none" stroke="currentColor" stroke-width="2.5"/>
+              </svg>
+            </div>
+            <p>Asientos con sistema hidráulico de movimiento activo. Fuerzas G replicadas en tiempo real. Tu cuerpo aprende antes de que tu cabeza lo procese.</p>
+          </li>
+
+          <li class="card card-purple">
+            <div class="card-head">
+              <h3>Software de <br>telemetría</h3>
+              <svg class="card-icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                <circle cx="24" cy="24" r="3" fill="currentColor"/>
+                <path d="M16 24a8 8 0 0 1 16 0" fill="none" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M10 24a14 14 0 0 1 28 0" fill="none" stroke="currentColor" stroke-width="2.5"/>
+              </svg>
+            </div>
+            <p>Análisis de datos en tiempo real con el mismo nivel de detalle que usan los equipos internacionales. Velocidad, frenada, línea, balance, sectores — todo medible, todo mejorable.</p>
+          </li>
+
+          <li class="card card-purple">
+            <div class="card-head">
+              <h3>Entorno<br> inmersivo</h3>
+              <svg class="card-icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                <path d="M10 18v12h6l10 8V10l-10 8h-6Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <path d="M32 18a10 10 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M37 14a17 17 0 0 1 0 20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <p>Pantallas curvas de alta frecuencia de actualización, audio envolvente y configuración de cabina a medida por piloto. Porque la inmersión no es un lujo — es parte del entrenamiento.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ RESEÑAS / TESTIMONIOS ============ -->
+     <section class="section section-dark" id="resenas" aria-labelledby="resenas-title">
+      <div class="container">
+        <h2 id="resenas-title">Lo que dicen los <br>que entrenaron acá</h2>
+ 
+        <div class="testimonial-carousel" id="testimonialCarousel">
+          <button class="carousel-arrow carousel-arrow-prev" id="testimonialPrev" type="button" aria-label="Ver testimonios anteriores">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+ 
+          <div class="testimonial-track" id="testimonialTrack">
+ 
+            <blockquote class="testimonial">
+              <svg class="testimonial-quote" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M7 6c-2.2 0-4 1.8-4 4v8h8v-8H7.6c.2-1.7 1.6-3 3.4-3V6H7Zm10 0c-2.2 0-4 1.8-4 4v8h8v-8h-3.4c.2-1.7 1.6-3 3.4-3V6h-4Z"/></svg>
+              <p>“Esperaba un programa de sim racing. Encontré análisis de datos, preparación física y coaches que me trataron igual que a cualquier otro piloto. Eso, en este deporte, todavía no es lo habitual.”</p>
+              <footer><cite>Valentina, C.</cite><span>Egresada de Equal Grid</span></footer>
+            </blockquote>
+ 
+            <blockquote class="testimonial">
+              <svg class="testimonial-quote" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M7 6c-2.2 0-4 1.8-4 4v8h8v-8H7.6c.2-1.7 1.6-3 3.4-3V6H7Zm10 0c-2.2 0-4 1.8-4 4v8h8v-8h-3.4c.2-1.7 1.6-3 3.4-3V6h-4Z"/></svg>
+              <p>“Vine con la expectativa de probar el hardware. Me fui con un informe de telemetría que me cambió completamente la manera de cómo entiendo mi pilotaje. No hay nada parecido en la región.”</p>
+              <footer><cite>Matías, R.</cite><span>Piloto de liga nacional</span></footer>
+            </blockquote>
+ 
+            <blockquote class="testimonial">
+              <svg class="testimonial-quote" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M7 6c-2.2 0-4 1.8-4 4v8h8v-8H7.6c.2-1.7 1.6-3 3.4-3V6H7Zm10 0c-2.2 0-4 1.8-4 4v8h8v-8h-3.4c.2-1.7 1.6-3 3.4-3V6h-4Z"/></svg>
+              <p>“Vine con dos compañeros de liga convencido de que ya nos conocíamos como pilotos. Los datos comparativos de la sesión nos demostraron que no teníamos ni idea. Fue brutal, en el mejor sentido.”</p>
+              <footer><cite>Tomás, V.</cite><span>Piloto de liga regional</span></footer>
+            </blockquote>
+ 
+          </div>
+ 
+          <button class="carousel-arrow carousel-arrow-next" id="testimonialNext" type="button" aria-label="Ver más testimonios">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NEWSLETTER ============ -->
+    <section class="newsletter" id="contacto" aria-labelledby="newsletter-title">
+      <div class="newsletter-media">
+        <img src="assets/newsletter-bg.png" alt="Cabina de simulación de Fórmula con pilotos ajustando el volante, vista de pista en el monitor curvo" loading="lazy">
+        <div class="newsletter-overlay"></div>
+      </div>
+      <div class="container newsletter-content">
+        <h2 id="newsletter-title">Telemetría, fechas <br>de liga y acceso anticipado. Sin ruido.</h2>
+        <p>Novedades de Apex, apertura de cupos y contenido técnico. Una vez por semana.</p>
+
+        <form class="newsletter-form" id="newsletterForm" novalidate>
+          <label for="newsletterEmail">Email</label>
+          <div class="newsletter-input-wrap">
+            <input type="email" id="newsletterEmail" name="email" placeholder="Tu correo electrónico" required autocomplete="email">
+            <button type="submit" aria-label="Suscribirme">
+              <span class="arrow" aria-hidden="true">→</span>
+            </button>
+          </div>
+          <p class="newsletter-feedback" id="newsletterFeedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <nav class="footer-col" aria-label="Apex">
+        <h2 class="footer-heading">Apex</h2>
+        <ul>
+          <li><a href="#diferencia">Acerca de</a></li>
+          <li><a href="#equal-grid">Equal Grid</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#">Privacidad</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-col" aria-label="Redes sociales">
+        <h2 class="footer-heading">Redes</h2>
+        <ul>
+          <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="#" target="_blank" rel="noopener">TikTok</a></li>
+          <li><a href="#" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="#" target="_blank" rel="noopener">X (Twitter)</a></li>
+        </ul>
+      </nav>
+
+      <address class="footer-col footer-address">
+        <p>Asunción 2909<br>CABA</p>
+        <p><a href="tel:+5491122942520">+54 9 11 2294 2520</a></p>
+        <p><a href="mailto:info@apex.com">info@apex.com</a></p>
+      </address>
+    </div>
+
+     <svg class="footer-wordmark" viewBox="0 0 1177.86 209.25" fill="currentColor" aria-hidden="true" focusable="false">
+      <path d="M153.74,0h86.9l59.87,209.25h-70.04l-9.88-38.07H63.55l34.64,10.68-17.98,27.39H0L153.74,0ZM208.08,122.06l-20.05-77.01-50.57,77.01h70.62Z"/>
+      <path d="M362.98,0h145.89c67.13,0,94.16,30.81,83.41,83.99-9.01,44.46-48.82,72.07-102.3,72.07h-91.84l-11.33,53.18h-68.88L362.98,0ZM489.11,102.01c22.67,0,34.29-5.52,38.36-23.25,3.78-17.44-5.52-23.54-28.19-23.54h-79.34l-10.17,46.79h79.34Z"/>
+      <path d="M637.31,0h213.31l-10.75,51.44h-143.86l-6.39,29.35h137.46l-9.88,47.08h-137.46l-6.39,29.93h143.86l-10.75,51.44h-213.9L637.31,0Z"/>
+      <path d="M957.28,101.72L875.03,0h80.79l50.57,66.84L1084.86,0h93l-133.1,110.44,80.5,98.81h-81.37l-51.73-66.55-75.56,66.55h-93.29l133.98-107.53Z"/>
+    </svg>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
